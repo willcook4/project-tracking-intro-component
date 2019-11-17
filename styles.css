@@ -67,6 +67,10 @@ font-family: 'Barlow Condensed', sans-serif;
   color: hsl(230, 29%, 20%);
 }
 
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+
 .menu ul li a.active {
   color: hsl(231, 7%, 65%);
 }
@@ -155,6 +159,11 @@ font-family: 'Barlow Condensed', sans-serif;
   font-family: 'Barlow', sans-serif;
   font-weight: 700;
   margin-top: 66px;
+}
+
+.text .cta-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .text .cta-text {
