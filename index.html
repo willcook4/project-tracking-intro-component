@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed:400,700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -16,6 +16,25 @@
         <img src='./images/logo.svg' alt="Company logo" />
       </div>
       <div class="menu">
+        <!-- Mobile Nav Start-->
+        <div class="burger-menu">
+          <input id="burger-menu" type="checkbox">
+          <nav class="burger-menu-active">
+            <a href="#" class="button">Products</a>
+            <a href="#" class="button">Features</a>
+            <a href="#" class="button">Pricing</a>
+            <a href="#" class="button">Login</a>  
+          </nav>
+          <label for="burger_menu">
+            <div class="burger-menu-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </label>
+        </div>
+        <!-- Mobile Nav End -->
+        <!-- Larger than mobile Nav Start -->
         <ul>
           <li><a href="#">Product</a></li>
           <li><a href="#">Features</a></li>
@@ -23,6 +42,7 @@
           <li class="spacer">.</li>
           <li><a class="active" href="#">Login</a></li>
         </ul>
+        <!-- Larger than mobile Nav End -->
       </div>
       <div class="text">
         <div class=text-header>
